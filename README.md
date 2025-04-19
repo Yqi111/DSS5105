@@ -48,31 +48,31 @@ green-cars-esg/
 
 ## Run the Project Locally
 
-### Clone the Repository
+### 1. Clone the Repository
 ```bash
 git clone https://github.com/Yqi111/DSS5105.git
 cd DSS5105/green-cars-esg
 ```
 
-### Create Python Virtual Environment
+### 2. Create Python Virtual Environment
 ```bash
 python -m venv venv
 source venv/bin/activate  # For Windows, use venv\Scripts\activate
 ```
 
-### Install Dependencies
+### 3. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### Start Backend
+### 4. Start Backend
 ```bash
 uvicorn main:app --reload
 ```
 The backend will run at http://127.0.0.1:8000.
 
 
-### Start Frontend
+### 5. Start Frontend
 ```bash
 brew install node
 pip install node
