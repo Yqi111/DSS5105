@@ -32,6 +32,7 @@ pip install uvicorn
 
 ## Project Structure
 
+```
 green-cars-esg/
 ├── app/                           # App Router structure 
 │   ├── page.tsx                   # Entry page for frontend
@@ -42,6 +43,7 @@ green-cars-esg/
 ├── styles/                        # Tailwind & global styles
 ├── main.py                        # FastAPI backend
 ├── ...
+```
 
 
 ## Run the Project Locally
@@ -64,13 +66,17 @@ pip install -r requirements.txt
 ```
 
 ### Start Backend
+```bash
 uvicorn main:app --reload
+```
 The backend will run at http://127.0.0.1:8000.
 
 
 ### Start Frontend
 ```bash
-npm install
+brew install node
+pip install node
+pip install next
 npm run dev
 ```
 The frontend will run at http://localhost:3000.
