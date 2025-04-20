@@ -81,4 +81,5 @@ npm run dev
 ```
 The frontend will run at http://localhost:3000.
 
-
+## Demo Video
+Watch the full system walkthrough here: [https://youtu.be/7iT0BpkYsPk](https://youtu.be/7iT0BpkYsPk)
